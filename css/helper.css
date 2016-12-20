@@ -1,0 +1,40 @@
+h1.large-ao {
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 17px;
+    margin-right: -17px;
+}
+
+.small-ao {
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+
+.foot-ao {
+    margin-bottom: 20px;
+}
+
+.is-text-ao {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.is-text-logo {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.is-pic-logo {
+    max-height: 50px;
+}
+
+.main-title {
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ffdd57;
+}
+
+.column .card {
+    width: auto;
+}

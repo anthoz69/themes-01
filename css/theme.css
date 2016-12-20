@@ -1,0 +1,150 @@
+@import url("helper.css");
+
+body {
+    color: #333;
+}
+
+.is-cover-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #292929;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.is-cover-bg.overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #304354;
+    opacity: .6;
+}
+
+.hero.is-dark.is-small {
+    position: relative;
+}
+
+.is-small .is-cover-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #292929;
+    background-size: cover !important;
+    background-position: inherit !important;
+}
+
+.is-small .is-cover-bg.overlay:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #292929;
+    opacity: .3;
+    z-index: 2;
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+}
+
+.breadcrumb ul li:not(:last-child):after {
+    display: inline-block;
+    content: "/";
+    margin: 0 4px;
+}
+
+.section.show-content {
+    min-height: 700px;
+}
+
+
+.footer {
+    padding: 40px 20px;
+}
+
+.widget {
+    position: relative;
+}
+
+.footer .widget .head {
+    font-weight: 600;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer .widget hr {
+    margin: 12px 0;
+}
+
+.footer .widget .content-item {
+    margin: 0 -15px 20px -15px;
+}
+
+.footer .widget .content-item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer .widget .content-item .pic {
+    float: left;
+    width: 33.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer .widget .content-item .info {
+    float: left;
+    width: 66.6666%;
+    padding-left: 0;
+    padding-right: 15px;
+}
+.footer .widget .content-item .info .title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footer .widget .content-item .info .title a {
+    line-height: 1.3;
+    word-break: break-all;
+}
+.footer .widget .content-item .info .meta {
+    font-size: 0.83rem;
+}
+
+.footer .widget .content-item .info .meta span i,
+.footer .widget .content-item .info .meta span a {
+    vertical-align: middle;
+}
+
+.footer .widget .content-item .info .meta span i {
+    font-size: 14px;
+}
+
+.footer .widget ul li {
+    margin: 7px 0;
+}
+
+
+
+
+
+
+
+
